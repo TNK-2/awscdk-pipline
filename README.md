@@ -1,8 +1,4 @@
-# Useful commands
+# awscdk-pipline
 
- * `npm run build`   compile typescript to js
- * `npm run watch`   watch for changes and compile
- * `npm run test`    perform the jest unit tests
- * `cdk deploy`      deploy this stack to your default AWS account/region
- * `cdk diff`        compare deployed stack with current state
- * `cdk synth`       emits the synthesized CloudFormation template
+aws cdkで codepiplineを作成し、lambdaの自動デプロイ環境を構築しました。  
+詳しくは[こちら](https://semigeek-dev.hatenablog.com/entry/2019/10/22/230239)
